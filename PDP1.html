@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Development Plan</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #4a0e4e;
+        }
+        .timeline {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-top: 40px;
+            position: relative;
+        }
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 30px;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: #4a0e4e;
+            z-index: 1;
+        }
+        .timeline-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 18%;
+            z-index: 2;
+        }
+        .timeline-icon {
+            width: 60px;
+            height: 60px;
+            background: #4a0e4e;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px;
+            transform: rotate(45deg);
+            margin-bottom: 10px;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .timeline-content {
+            text-align: center;
+        }
+        .timeline-content h4 {
+            margin: 10px 0 5px;
+            color: #4a0e4e;
+        }
+        .timeline-content p {
+            font-size: 12px;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Personal Development Plan:<br>Software Developer - Business Architect</h1>
+    <h1>PERIOD: 4 YEARS</h1>
+    <div id="plan"></div>
+
+    <h2>Professional Journey Timeline</h2>
+    <div class="timeline">
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                Year 0
+            </div>
+            <div class="timeline-content">
+                <h4>Developer</h4>
+                <p>Skill level: intermediate</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                Year 1
+            </div>
+            <div class="timeline-content">
+                <h4>Software Engineer</h4>
+                <p>Gain more knowledge, converting user requirements to technical specifications.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                Year 2
+            </div>
+            <div class="timeline-content">
+                <h4>Business Analyst</h4>
+                <p>Work on cross-functional projects to gain relevant experience.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                Year 3
+            </div>
+            <div class="timeline-content">
+                <h4>Proffessional Certification</h4>
+                <p>Obtain relevant TOGAF certification.</p>
+            </div>
+        </div>
+        <div class="timeline-item">
+            <div class="timeline-icon">
+                Year 4
+            </div>
+            <div class="timeline-content">
+                <h4>Business Architecture</h4>
+                <p>Practice as a business architect in enterprise architecture field.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
